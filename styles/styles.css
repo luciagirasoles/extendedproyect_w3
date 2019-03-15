@@ -58,7 +58,7 @@
         }
   
     .container {
-        /* height: 80vh; */
+        min-height: 80vh;
         background-color: #80CCCC;
         padding: 50px 15px;
     }
@@ -69,7 +69,7 @@
         }
 
         .errormessage {
-            font-size: 4em;
+            font-size: 2.5em;
             text-align: center;
         }
 
