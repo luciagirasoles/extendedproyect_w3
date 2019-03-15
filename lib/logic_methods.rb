@@ -1,6 +1,11 @@
+#validar si del nombre ingresado existe el .txt
+def check_file_existence(name)
+    @name = '../Data/' + name.to_s.capitalize + '.txt'
+    File.exist?(@name) || File.symlink?(@name) 
+end
+
 # metodo recibe string (nombre o error o vacio)
-#debe leer los archivos o cargar la pagina de error
-#use include
+# debe leer los archivos o cargar la pagina de error
 
 # a = [ "a", "b", "c" ]
 # a.include?("b")   #=> true
