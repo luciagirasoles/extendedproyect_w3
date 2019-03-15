@@ -2,6 +2,10 @@
     margin: 0px auto;
   }
 
+  .limit {
+      width: 80%;
+  }
+
   .cleanLink {
       text-decoration: none;
   }
@@ -17,7 +21,7 @@
   
   body {
     margin: 0px auto;
-    width: 1200px;
+    width: 100%;
     font-family: sans-serif;
     background-color: dimgrey;
   }
@@ -35,6 +39,7 @@
             color: white;
             padding: 20px 0px;
             font-size: 32px;
+            line-height: 0.8em;
         }
   
     main {
