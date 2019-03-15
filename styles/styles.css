@@ -1,3 +1,154 @@
+<<<<<<< HEAD
+* {
+    margin: 0px auto;
+  }
+
+  .boxed {
+    border: 2px double black;
+    background-color: white;
+    padding: 30px;
+    margin: 0 60px;
+  }
+
+  .limit {
+      width: 80%;
+  }
+
+  .cleanLink {
+      text-decoration: none;
+  }
+
+  .codeable1 {
+      font-family: 'Roboto slab', serif;
+      color: white;
+      text-shadow: 1px 1px black;
+      font-weight: 100;
+  }
+
+  .codeable2 {
+      color: #999b9e;
+  }
+  
+  body {
+    margin: 0px auto;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: dimgrey;
+  }
+  
+    header {
+        padding: 20px 0px;
+        margin: 0px 0px;
+        width: 100%;
+        height: 10vh;
+        background-color: slategrey;
+    }
+
+        .name {
+            text-align: center;
+            color: white;
+            padding: 20px 0px;
+            font-size: 32px;
+            line-height: 0.8em;
+        }
+  
+    main {
+        height: 10vh;
+        background-color:black;
+        padding: 40px 0px;
+        border-top: 2px white double;
+        border-bottom: 2px white double;
+    }
+
+        h1 {
+            width: 50%;
+            text-align: center;
+            color: white;
+            line-height: 2em;
+        }
+        
+        h1:hover {
+            transform: scale(1.05);
+            color: cornflowerblue;
+        }
+  
+    .container {
+        min-height: 80vh;
+        background-color: #80CCCC;
+        padding: 50px 15px;
+    }
+
+    .intro {
+        line-height: 1.2em;
+        text-align: justify;
+    }
+
+        .important {
+            font-weight: bold;
+            font-size: 1.2em;
+            line-height: 1.2em;
+            padding-bottom: 10px;
+            
+        }
+
+        .errormessage {
+            font-size: 2.5em;
+            text-align: center;
+            padding: 30px;
+        }
+
+        ul {
+            /* margin: 25px 45px; */
+        }
+  
+        .questionList {
+            text-align: justify;
+            list-style: none;
+        }
+        
+            .question {
+                font-size: 20px;
+                font-weight: bold;
+                padding: 10px;
+                line-height: 1.2em;
+            }
+            
+            .answer {
+                margin: 0px 20px;
+                padding-bottom: 20px;
+                line-height: 1.5em;
+            }
+        
+        .groupMembers {
+            padding: 50px;
+            list-style: none;
+            text-align: center;
+        }
+            .groupMembers li {
+                display: inline-block;
+                border: 1px solid black;
+                width: 200px;
+                height: 60px;
+                margin: 10px;
+            }
+
+            .groupMembers p {
+                margin: 0;
+                padding: 4px;
+            }
+            .memberTitle {
+                font-size: 1.2em;
+                background-color: slategray;
+                color: white;
+            }
+
+            .memberName {
+                background-color: white;
+                color: black;
+            }
+
+            
+=======
 *{
   margin: 0px auto;
 }
@@ -65,3 +216,4 @@ ul{
   padding-bottom: 20px;
 
 }
+>>>>>>> f646f836bf9ecce5502780b3f9979c0bfb91879c
