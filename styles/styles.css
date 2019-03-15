@@ -2,6 +2,13 @@
     margin: 0px auto;
   }
 
+  .boxed {
+    border: 2px double black;
+    background-color: white;
+    padding: 30px;
+    margin: 0 60px;
+  }
+
   .limit {
       width: 80%;
   }
@@ -13,6 +20,8 @@
   .codeable1 {
       font-family: 'Roboto slab', serif;
       color: white;
+      text-shadow: 1px 1px black;
+      font-weight: 100;
   }
 
   .codeable2 {
@@ -71,33 +80,35 @@
         .important {
             font-weight: bold;
             font-size: 1.2em;
+            font-size: 1.2em;
         }
 
         .errormessage {
             font-size: 2.5em;
             text-align: center;
+            padding: 30px;
         }
 
         ul {
-            margin: 25px 45px;
+            /* margin: 25px 45px; */
         }
   
         .questionList {
             text-align: justify;
-            border: 2px black double;
-            background-color: white;
+            list-style: none;
         }
         
             .question {
                 font-size: 20px;
                 font-weight: bold;
                 padding: 10px;
-                margin-top: 70px;
+                line-height: 1.2em;
             }
             
             .answer {
-                margin: 0px 30px;  
+                margin: 0px 20px;
                 padding-bottom: 20px;
+                line-height: 1.5em;
             }
         
         .groupMembers {
