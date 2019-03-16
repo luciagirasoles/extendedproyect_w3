@@ -2,13 +2,14 @@
   margin: 0px auto;
 }
 
+/* Code to eliminate border of <a> anchors */
 :focus {
   outline: none;
 }
 ::-moz-focus-inner {
   border: 0;
 }
-
+/* end */
 .boxed {
   border: 2px double black;
   background-color: white;
@@ -90,6 +91,7 @@ h1:hover {
 
 .intro {
   line-height: 1.5em;
+  margin-bottom: 50px;
 }
 
 .important {
@@ -108,7 +110,6 @@ h2.errormessage {
 }
 
 .questionList {
-  text-align: justify;
   list-style: none;
   padding: 0;
 }
@@ -127,9 +128,9 @@ h2.errormessage {
 }
 
 .groupMembers {
-  padding: 50px;
   list-style: none;
   text-align: center;
+  padding: 0;
 }
 
 .groupMembers li {
@@ -158,4 +159,16 @@ h2.errormessage {
 .memberName {
   background-color: white;
   color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  .name {
+    font-size: 3em;
+  }
+  .boxed {
+    margin: 0;
+  }
+  .limit {
+    width: 100%;
+  }
 }
