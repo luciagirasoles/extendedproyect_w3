@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0px auto;
   }
@@ -12,6 +11,7 @@
 
   .limit {
       width: 80%;
+      margin: 0 auto;
   }
 
   .cleanLink {
@@ -30,39 +30,42 @@
   }
   
   body {
-    margin: 0px auto;
+    margin: 0;
+    padding: 0;
     width: 100%;
     font-family: sans-serif;
     background-color: dimgrey;
   }
   
     header {
-        padding: 20px 0px;
-        margin: 0px 0px;
+        padding: 0;
+        margin: 0;
         width: 100%;
-        height: 10vh;
         background-color: slategrey;
     }
 
         .name {
             text-align: center;
             color: white;
-            padding: 20px 0px;
-            font-size: 32px;
+            padding: 20px 0;
+            font-size: 5em;
             line-height: 0.8em;
         }
   
     main {
-        height: 10vh;
         background-color:black;
-        padding: 40px 0px;
-        border-top: 2px white double;
-        border-bottom: 2px white double;
+        padding: 40px 0;
+        border-top: 2px double white ;
+        border-bottom: 2px double white;
+        text-align: center;
+    }
+
+    main img {
+        width: 200px;
     }
 
         h1 {
-            width: 50%;
-            text-align: center;
+            /* text-align: center; */
             color: white;
             line-height: 2em;
         }
@@ -73,14 +76,12 @@
         }
   
     .container {
-        min-height: 80vh;
         background-color: #80CCCC;
         padding: 50px 15px;
     }
 
     .intro {
-        line-height: 1.2em;
-        text-align: justify;
+        line-height: 1.5em;
     }
 
         .important {
@@ -94,16 +95,15 @@
         .errormessage {
             font-size: 2.5em;
             text-align: center;
-            padding: 30px;
         }
-
-        ul {
-            /* margin: 25px 45px; */
+        h2.errormessage {
+            padding: 30px;
         }
   
         .questionList {
             text-align: justify;
             list-style: none;
+            padding: 0;
         }
         
             .question {
@@ -114,7 +114,7 @@
             }
             
             .answer {
-                margin: 0px 20px;
+                margin: 0 20px;
                 padding-bottom: 20px;
                 line-height: 1.5em;
             }
@@ -124,11 +124,11 @@
             list-style: none;
             text-align: center;
         }
+
             .groupMembers li {
                 display: inline-block;
                 border: 1px solid black;
                 width: 200px;
-                height: 60px;
                 margin: 10px;
             }
 
@@ -136,6 +136,11 @@
                 margin: 0;
                 padding: 4px;
             }
+
+            .groupMembers img {
+                width: 200px;
+            }
+
             .memberTitle {
                 font-size: 1.2em;
                 background-color: slategray;
@@ -146,74 +151,3 @@
                 background-color: white;
                 color: black;
             }
-
-            
-=======
-*{
-  margin: 0px auto;
-}
-
-body{
-  margin: 0px auto;
-  width: 1200px;
-  font-family: sans-serif;
-  background-color: dimgrey;
-}
-
-header {
-  padding: 20px 0px;
-  margin: 0px 0px;
-  width: 100%;  
-  background-color: slategrey;
-}
-.name {
-  text-align: center;
-  color: white;
-  padding: 20px 0px;
-  font-size: 32px;
-}
-
-main{
-  background-color:black;
-  padding: 40px 0px;
-  border-top: 2px white double;
-  border-bottom: 2px white double;
-}
-
-.container{
-  background-color: deepskyblue;
-  padding: 50px 15px;
-  display: block;
-}
-
-h1{
-  width: 50%;
-  text-align: center;
-  color: white;
-  font-size: 64px;
-}
-h1:hover{
-  transform: scale(1.05);
-  color: cornflowerblue;
-}
-
-ul{
-  margin: 25px 45px;
-  text-align: justify;
-  border: 2px black double;
-  background-color: white;
-}
-
-.question{
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px;
-  margin-top: 70px;
-}
-
-.answer{
-  margin: 0px 30px;  
-  padding-bottom: 20px;
-
-}
->>>>>>> f646f836bf9ecce5502780b3f9979c0bfb91879c
