@@ -1,153 +1,161 @@
 * {
-    margin: 0px auto;
-  }
+  margin: 0px auto;
+}
 
-  .boxed {
-    border: 2px double black;
-    background-color: white;
-    padding: 30px;
-    margin: 0 60px;
-  }
+:focus {
+  outline: none;
+}
+::-moz-focus-inner {
+  border: 0;
+}
 
-  .limit {
-      width: 80%;
-      margin: 0 auto;
-  }
+.boxed {
+  border: 2px double black;
+  background-color: white;
+  padding: 30px;
+  margin: 0 60px;
+}
 
-  .cleanLink {
-      text-decoration: none;
-  }
+.limit {
+  width: 80%;
+  margin: 0 auto;
+}
 
-  .codeable1 {
-      font-family: 'Roboto slab', serif;
-      color: white;
-      text-shadow: 1px 1px black;
-      font-weight: 100;
-  }
+.cleanLink {
+  text-decoration: none;
+}
 
-  .codeable2 {
-      color: #999b9e;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-family: sans-serif;
-    background-color: dimgrey;
-  }
-  
-    header {
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        background-color: slategrey;
-    }
+.codeable1 {
+  font-family: "Roboto slab", serif;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: 100;
+}
 
-        .name {
-            text-align: center;
-            color: white;
-            padding: 20px 0;
-            font-size: 5em;
-            line-height: 0.8em;
-        }
-  
-    main {
-        background-color:black;
-        padding: 40px 0;
-        border-top: 2px double white ;
-        border-bottom: 2px double white;
-        text-align: center;
-    }
+.codeable2 {
+  color: #999b9e;
+}
 
-    main img {
-        width: 200px;
-    }
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: dimgrey;
+}
 
-        h1 {
-            /* text-align: center; */
-            color: white;
-            line-height: 2em;
-        }
-        
-        h1:hover {
-            transform: scale(1.05);
-            color: cornflowerblue;
-        }
-  
-    .container {
-        background-color: #80CCCC;
-        padding: 50px 15px;
-    }
+header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: slategrey;
+}
 
-    .intro {
-        line-height: 1.5em;
-    }
+.name {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  font-size: 5em;
+  line-height: 0.8em;
+}
 
-        .important {
-            font-weight: bold;
-            font-size: 1.2em;
-            line-height: 1.2em;
-            padding-bottom: 10px;
-            
-        }
+main {
+  background-color: black;
+  padding: 40px 0;
+  border-top: 2px double white;
+  border-bottom: 2px double white;
+  text-align: center;
+}
 
-        .errormessage {
-            font-size: 2.5em;
-            text-align: center;
-        }
-        h2.errormessage {
-            padding: 30px;
-        }
-  
-        .questionList {
-            text-align: justify;
-            list-style: none;
-            padding: 0;
-        }
-        
-            .question {
-                font-size: 20px;
-                font-weight: bold;
-                padding: 10px;
-                line-height: 1.2em;
-            }
-            
-            .answer {
-                margin: 0 20px;
-                padding-bottom: 20px;
-                line-height: 1.5em;
-            }
-        
-        .groupMembers {
-            padding: 50px;
-            list-style: none;
-            text-align: center;
-        }
+main img {
+  width: 200px;
+  height: 200px;
+}
 
-            .groupMembers li {
-                display: inline-block;
-                border: 1px solid black;
-                width: 200px;
-                margin: 10px;
-            }
+h1 {
+  /* text-align: center; */
+  color: white;
+  line-height: 2em;
+}
 
-            .groupMembers p {
-                margin: 0;
-                padding: 4px;
-            }
+h1:hover {
+  transform: scale(1.05);
+  color: cornflowerblue;
+}
 
-            .groupMembers img {
-                width: 200px;
-            }
+.container {
+  background-color: #80cccc;
+  padding: 50px 15px;
+}
 
-            .memberTitle {
-                font-size: 1.2em;
-                background-color: slategray;
-                color: white;
-            }
+.intro {
+  line-height: 1.5em;
+}
 
-            .memberName {
-                background-color: white;
-                color: black;
-            }
+.important {
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  padding-bottom: 10px;
+}
+
+.errormessage {
+  font-size: 2.5em;
+  text-align: center;
+}
+h2.errormessage {
+  padding: 30px;
+}
+
+.questionList {
+  text-align: justify;
+  list-style: none;
+  padding: 0;
+}
+
+.question {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  line-height: 1.2em;
+}
+
+.answer {
+  margin: 0 20px;
+  padding-bottom: 20px;
+  line-height: 1.5em;
+}
+
+.groupMembers {
+  padding: 50px;
+  list-style: none;
+  text-align: center;
+}
+
+.groupMembers li {
+  display: inline-block;
+  border: 1px solid black;
+  width: 200px;
+  margin: 10px;
+}
+
+.groupMembers p {
+  margin: 0;
+  padding: 4px;
+}
+
+.groupMembers img {
+  width: 200px;
+  height: 200px;
+}
+
+.memberTitle {
+  font-size: 1.2em;
+  background-color: slategray;
+  color: white;
+}
+
+.memberName {
+  background-color: white;
+  color: black;
+}
