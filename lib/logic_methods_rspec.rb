@@ -1,12 +1,25 @@
+require_relative 'logic_methods'
+
 RSpec.describe "Test logic_methods" do
-    describe "Test read_string method" do # agrupa los casos
-      it "returns a string with data from Carlos.txt" do # define cada caso
-        expect(read_string("Carlos.txt")).to eq("")
-      end
+
+  #True or false if file *.txt exists or not in Data file
+  
+  it "should return TRUE because Carlos.txt exists" do
+    result = check_file_existence("Carlos") #txt is 
+    expect(result).to be true
+  end
+  it "should return FALSE because Someone.txt doesn't exist" do
+    result = check_file_existence("Someone") #txt is 
+    expect(result).to be false
     
-      it "return errors when there is other values" do # define cada caso
-        expect(read_string("CARLOS")).to eq("Error")
-      end
+  end
+ # Verify read_string is returning a file
+
+  it "should webpage about.html must be expect when is called" do
+      result=read_string("about.html")
+      # about. html - webpage where Members' answers are shown.
+      expect(result).to include(File.read("../about.html"))
       
-    end
-   end
+  end
+
+end
