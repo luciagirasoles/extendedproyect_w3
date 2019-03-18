@@ -1,6 +1,12 @@
-#validar si del nombre ingresado existe el .txt
-def check_file_existence(name)
+# validar si del nombre ingresado existe el .txt
+def check_file_data_existence(name)
     name = '../data/' + name.capitalize + '.txt'
+    File.exist?(name) || File.symlink?(name) 
+end
+
+# validar si existe el archivo dentro de la carpeta public
+def check_file_existence(name)
+    name = '../public' + name
     File.exist?(name) || File.symlink?(name) 
 end
 
@@ -27,4 +33,3 @@ def read_string(string_name)
     end
     string_result
 end
-

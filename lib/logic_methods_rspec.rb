@@ -5,11 +5,11 @@ RSpec.describe "Test logic_methods" do
   #True or false if file *.txt exists or not in Data file
   
   it "should return TRUE because Carlos.txt exists" do
-    result = check_file_existence("Carlos") #txt is 
+    result = check_file_data_existence("Carlos") #txt is 
     expect(result).to be true
   end
   it "should return FALSE because Someone.txt doesn't exist" do
-    result = check_file_existence("Someone") #txt is 
+    result = check_file_data_existence("Someone") #txt is 
     expect(result).to be false
     
   end
